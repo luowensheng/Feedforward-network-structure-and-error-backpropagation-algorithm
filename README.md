@@ -17,6 +17,9 @@ Getweights
 This function randomly creates weights given the number of layers , the number of neurons and a bias. I have found that using all zeros for the weight matrices isn’t really efficient, as a result the weight matrices are calculated as such: 
    Weight1=2*rand(m,n)-1*sqrt(number of neuurons+output size) 
 The weights are all stored in a cell, that way it is much easier to try different number of layers on the neural network.  
+
+
+
 Trainnetwork1 
 This function receives all the different parameters needed for training. I have used momentum as a way to increase the accuracy. The first phase is the feedforward propagation. It takes all the a 1 by 2 vector, add a bias to make it a 1 by 3 vector and multiplies the weight to the input vector, performs sigmoid with this output and get this new output and do the same thing until it gets to the last layer where it would perform a softmax instead of a sigmoid to make its final prediction. The next phase is backpropagation. The error will be found by subtracting the correct answer to the prediction then we will find the errors for each layer and the gradient for each weight by using the stochastic gradient descent method.  
  
