@@ -21,6 +21,7 @@ The weights are all stored in a cell, that way it is much easier to try differen
 
 
 Trainnetwork1 
+
 This function receives all the different parameters needed for training. I have used momentum as a way to increase the accuracy. The first phase is the feedforward propagation. It takes all the a 1 by 2 vector, add a bias to make it a 1 by 3 vector and multiplies the weight to the input vector, performs sigmoid with this output and get this new output and do the same thing until it gets to the last layer where it would perform a softmax instead of a sigmoid to make its final prediction. The next phase is backpropagation. The error will be found by subtracting the correct answer to the prediction then we will find the errors for each layer and the gradient for each weight by using the stochastic gradient descent method.  
  
  
@@ -39,11 +40,13 @@ Also if we have a final output of [0.25 0.5 0.25], the classifier would predict 
  
  
 Predimg2 
+
 This function works similarly as the previous one. The only difference is that it does not compare it prediction with the correct prediction. 
  
  
  
  
 Getdboundary 
+
 This function creates a new set of testing points using the testing data
 
