@@ -156,6 +156,7 @@ Due to the amount of complexity of a multi-layer neural network, many Matlab fun
 
 # Questions
 [(Back to top :arrow_up_small:)](#Feedforward-Network-Structure-and-Error-Backpropagation-Algorithm)
+
 Submit your questions and bug reports [here](https://github.com/luowensheng/Natural-Language-Processing-Grammatical-Error-Correction-/issues).
 
 
