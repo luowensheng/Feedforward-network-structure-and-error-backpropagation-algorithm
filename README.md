@@ -151,7 +151,7 @@ Due to the amount of complexity of a multi-layer neural network, many Matlab fun
 
     <img src="https://i.ibb.co/2jvkcTg/18.jpg" alt="18" border="0"></a>
 
-    With more epochs, it would eventually get really close to 0.
+    With more epochs, the loss would eventually get really close to 0 and the accuracy would get to 100%.
 
 
 # Questions
